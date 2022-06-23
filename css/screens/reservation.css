@@ -1,0 +1,150 @@
+.container {
+  background-color: #c4c4c4;
+}
+
+.day-box {
+  display: flex;
+  height: 37.7px;
+}
+.day_num {
+  width: 20px;
+}
+
+.reservation {
+  padding-top: 85px;
+}
+
+.reservation__do-reserve {
+  /* border: 1px dotted red; */
+  height: 163px;
+  margin-bottom: 15px;
+  padding: 26.3px 30px;
+  position: relative;
+  background-color: var(--white-bg);
+  box-shadow: var(--box-shadow);
+}
+.reservation__do-reserve h1 {
+  font-size: 20px;
+}
+
+.reservation__do-reserve table {
+  position: absolute;
+  top: 70px;
+}
+.reservation__do-reserve td {
+  width: 100px;
+  height: 30px;
+}
+
+.reservation__select-day {
+  /* border: 1px dotted red; */
+  height: 163px;
+  margin-bottom: 26px;
+  padding-top: 26.3px;
+  background-color: var(--white-bg);
+  box-shadow: var(--box-shadow);
+}
+
+.reservation__select-day-title {
+  padding: 0 0 30px 30px;
+}
+
+.reservation__select-time {
+  /* border: 1px dotted red; */
+  height: 250px;
+  padding: 26.3px 30px;
+  background-color: var(--white-bg);
+  box-shadow: var(--box-shadow);
+}
+.mySwiper1 {
+  height: 47px;
+}
+.mySwiper1 .swiper-wrapper {
+  margin-left: 30px;
+}
+.mySwiper1 .swiper-slide {
+  display: flex;
+}
+
+.day_num input {
+  display: none;
+}
+.day_num label {
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 100%;
+  color: var(--text-white);
+}
+
+.day_num input:checked + label {
+  background-color: var(--main-pink);
+}
+.time-box {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide2 {
+  font-size: 18px;
+  height: auto;
+  /* height: 400px; */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.swiper-wrapper1 {
+  margin-left: 30px;
+}
+
+.time_num {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.time_num input {
+  display: none;
+}
+
+.time_num label {
+  background-color: #c4c4c4;
+  width: 72px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: var(--text-white);
+}
+
+.time_num input:checked + label {
+  background-color: var(--main-pink);
+}
+
+.reservation__submit {
+  display: flex;
+  justify-content: center;
+}
+.reservation__submit input {
+  border: 0;
+  font-size: 20px;
+  color: var(--text-white);
+  background-color: var(--main-pink);
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  margin-top: 7px;
+  box-shadow: var(--box-shadow);
+}

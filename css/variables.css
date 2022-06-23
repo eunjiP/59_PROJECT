@@ -1,0 +1,37 @@
+:root {
+  /* ====== Mobile Colors ====== */
+  --main-pink: #ff6464;
+  --main-green: #10b981;
+  --star-yellow: #fcd34d; /*별점과 그래프에 쓰이는 노랑*/
+  --gray-bg: #9ca3af;
+  --border-color: #c4c4c4;
+  --white-bg: #fdfdfd;
+  --light-gray-bg: #f3f4f6;
+
+  /* ====== Web Colors ======  */
+  --dark-bg: #282828;
+  --dark-yellow: #ffb03a; /* 관리자페이지에 쓰이는 노랑*/
+
+  /* ====== Text Colors ====== */
+  --text-dark-gray: #1f2937;
+  --text-white: #fdfdfd;
+  --text-gray: #9ca3af;
+  --text-light-gray: #cccccc;
+
+  /* ====== Transition ====== */
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+
+  /* ====== Size ====== */
+  --mobile-min-width: 20rem;
+  --mobile-max-width: 28.75rem;
+  --mobile-height: 52.75rem;
+  --box-width: 20.375rem; /* 325px */
+  --font-lg: 1.125rem; /* 18px */
+  --font-md: 1rem; /* 16px */
+  --font-sm: 0.875rem; /* 14px */
+  /* ====== Shadow ====== */
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

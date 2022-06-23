@@ -1,0 +1,10 @@
+.store--header {
+    background: none;
+}
+.store--header nav a {
+    color: var(--text-white);
+    font-size: 1.5rem;
+}
+.store--header nav a i {
+    text-shadow: 5px 5px 3px #000000;
+}

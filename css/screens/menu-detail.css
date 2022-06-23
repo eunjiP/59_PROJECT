@@ -1,0 +1,107 @@
+.transparent {
+  background-color: #ffffff00 !important;
+}
+.menu--main .menu--header {
+  padding-top: 10rem;
+  position: relative;
+  background: rgb(255, 100, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 100, 100, 1) 0%,
+    rgba(220, 88, 136, 1) 100%
+  );
+}
+.custom-shape-divider-bottom-1652766301 {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.swiper-wrapper a {
+  color: var(--text-gray);
+}
+.custom-shape-divider-bottom-1652766301 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1652766301 .shape-fill {
+  fill: #ffffff;
+}
+.menu--img {
+  margin-top: -10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu--img img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.menu--info .menu--info__box div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.menu--info .sub-count {
+  margin: 10px 0;
+  text-align: left;
+  font-weight: normal;
+  color: var(--text-gray);
+}
+.menu--info .menu--info__box {
+  display: flex;
+  flex-direction: column;
+}
+.menu-text .menu-info__name {
+  margin-bottom: 5px;
+}
+.menu--info .menu--price {
+  text-decoration: line-through;
+  font-size: 1.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin: 0.625rem 0;
+  color: var(--text-gray);
+}
+.menu--info .menu--sub__price {
+  color: var(--main-pink);
+}
+.menu--info .menu--content {
+  text-align: left;
+  font-weight: normal;
+  font-size: var(--font-md);
+}
+.bottom--box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 0;
+  position: fixed;
+  min-width: var(--mobile-min-width);
+  max-width: var(--mobile-max-width);
+  bottom: 0;
+}
+.input--sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 64px;
+  background: var(--main-pink);
+  border-radius: 12px;
+  color: var(--text-white);
+  border: none;
+  font-size: var(--font-lg);
+  font-weight: bold;
+  cursor: pointer;
+}

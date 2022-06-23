@@ -1,0 +1,52 @@
+.num--form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ff6464;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #ff6464;
+  user-select: none;
+  color: var(--text-white);
+  border-radius: 4px;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+form .decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+form .increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+input.number {
+  box-sizing: border-box;
+  text-align: center;
+  border: none;
+  border: 1px solid #ff6464;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

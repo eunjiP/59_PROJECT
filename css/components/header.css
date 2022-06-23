@@ -1,0 +1,80 @@
+:root {
+  /* ====== Mobile Colors ====== */
+  --main-pink: #ff6464;
+  --main-green: #10b981;
+  --star-yellow: #fcd34d; /*별점과 그래프에 쓰이는 노랑*/
+  --gray-bg: #9ca3af;
+  --border-color: #c4c4c4;
+  --white-bg: #fdfdfd;
+
+  /* ====== Web Colors ======  */
+  --dark-bg: #282828;
+  --dark-yellow: #ffb03a; /* 관리자페이지에 쓰이는 노랑*/
+
+  /* ====== Text Colors ====== */
+  --text-dark-gray: #1f2937;
+  --text-white: #fdfdfd;
+  --text-gray: #9ca3af;
+  --text-light-gray: #cccccc;
+
+  /* ====== Transition ====== */
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+
+  /* ====== Size ====== */
+  --mobile-width: 24.375rem;
+  --mobile-height: 52.75rem;
+  --box-width: 20.375rem; /* 325px */
+  --font-lg: 1.125rem; /* 18px */
+  --font-md: 1rem; /* 16px */
+  --font-sm: 0.875rem; /* 14px */
+
+  /* ====== Shadow ====== */
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  width: 100%;
+  min-width: var(--mobile-min-width);
+  max-width: var(--mobile-max-width);
+  height: 5.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-bg);
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+header nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 30px;
+}
+header nav .nav--back {
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  color: var(--main-pink);
+}
+header nav .nav--logo img {
+  width: 2.875rem;
+}
+header nav a {
+  font-size: var(--font-lg);
+  color: var(--text-dark-gray);
+}
+header nav .nav--addr a {
+  font-size: var(--font-md);
+}
+header nav .nav--addr i {
+  color: var(--main-pink);
+}
+header nav .nav--notice {
+  width: 2.75rem;
+}

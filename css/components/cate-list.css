@@ -1,0 +1,12 @@
+.top__list .top__item {
+  float: left;
+  background-color: var(--light-gray-bg);
+  width: 78px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  border-radius: 0.5rem;
+  color: var(--text-gray);
+}

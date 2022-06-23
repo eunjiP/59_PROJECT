@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+    width: var(--mobile-width);
+    height: var(--mobile-height);
+}
+.home--header {
+    background-color: var(--white-bg);
+    width: 100%;
+    height: 5.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+.home--header nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 30px;
+}
+
+.home--header nav .nav--logo img {
+    width: 2.875rem;
+}
+.home--header nav a {
+    font-size: var(--font-lg);
+    color: var(--text-dark-gray);
+}
+.home--header nav .nav--addr a {
+    font-size: var(--font-md);
+}
+.home--header nav .nav--addr i {
+    color: var(--main-pink);
+}

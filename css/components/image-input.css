@@ -1,0 +1,73 @@
+.image-form {
+  border: 1px solid #dde1e4;
+  padding: 40px;
+  margin: 24px auto;
+  max-width: 552px;
+  background: #fff;
+}
+
+.image-input__label {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.image-input__input-wrapper {
+  margin-top: 4px;
+}
+
+.filereader .image-input__input-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.filereader .image-input__input,
+.filereader .image-input__pseudo,
+.filereader .image-input__thumb {
+  position: relative;
+  top: 0;
+  left: 0;
+  /* 박스 사이즈 조절하는 부분 */
+  width: 100%;
+  height: 112px;
+  margin-right: 1.6rem;
+}
+
+.filereader .image-input__input {
+  cursor: pointer;
+  opacity: 0;
+  z-index: 1;
+}
+
+.filereader .image-input__pseudo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--main-pink);
+  color: var(--main-pink);
+  border-radius: 6px;
+  background-color: #f9fafc;
+  font-size: var(--font-md);
+  font-weight: 600;
+}
+.filereader .image-input__pseudo i {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.filereader .image-input__thumb {
+  position: absolute;
+  border: 1px solid #eaeaee;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.filereader .image-input__input:focus + .image-input__pseudo {
+  outline: 1px dotted #212121;
+  outline: 5px auto -webkit-focus-ring-color;
+}

@@ -1,0 +1,29 @@
+.not_list {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.not_box {
+  margin-top: 10px;
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0.1px 0.1px 10px 1px #80808045;
+  text-align: center;
+}
+.not_box a {
+  color: black;
+}
+.not_button {
+  margin-top: 10px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.not_ctreat_at {
+  font-size: 3px;
+  color: #ffffff;
+}

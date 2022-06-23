@@ -1,0 +1,8 @@
+.store--header {
+  z-index: 999;
+}
+#map {
+  min-width: var(--mobile-min-width);
+  max-width: var(--mobile-max-width);
+  height: var(--mobile-height);
+}

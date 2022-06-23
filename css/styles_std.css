@@ -1,0 +1,16 @@
+/* --------- Noto Sans Font --------- */
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+
+/* --------- reset CSS --------- */
+@import "reset.css";
+
+/* --------- variables CSS --------- */
+@import "variables.css";
+
+/* --------- Components --------- */
+/* @import url('components/main-header.css'); */
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/store-header.css";
+@import "components/input-num.css";
+@import "components/image-input.css";

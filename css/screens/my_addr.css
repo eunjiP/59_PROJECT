@@ -1,0 +1,49 @@
+.my_addr--main {
+  padding-top: 105px;
+}
+.my_addr--form--input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.my_addr--form--input .input--top {
+  border: 1px solid var(--text-gray);
+  width: 326px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my_addr--form--input .input--top i {
+  font-size: 1.5rem;
+  color: var(--main-pink);
+  margin-right: 10px;
+}
+.my_addr--form--input .input--top input[type='text'] {
+  border: 0;
+  height: 80%;
+  width: 70%;
+}
+.my_addr--form--button {
+  text-align: center;
+  cursor: pointer;
+}
+.my_addr--main .my_addr--button {
+  margin: 20px 0;
+  border: 1px solid var(--main-pink);
+  border-radius: 1rem;
+  background-color: var(--main-pink);
+  color: var(--text-white);
+}
+.my_addr--form--button input[type='submit'] {
+  padding: 20px;
+}
+#my_address-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#my_address-box button {
+  padding: 10px;
+}

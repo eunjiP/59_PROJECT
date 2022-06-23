@@ -1,0 +1,192 @@
+/* 개발용 임시작업 */
+/* header {
+  border: 1px solid blue;
+}
+
+.container {
+  border: 1px dotted red;
+} */
+main {
+  padding-top: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-manage-tap {
+  margin-bottom: 15px;
+  background-color: #e5e7eb;
+  width: 90%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.sub-manage-tap div {
+  width: 48%;
+  height: 90%;
+  font-size: 1rem;
+}
+
+.sub-manage-tap input {
+  display: none;
+}
+
+.sub-manage-tap label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-gray);
+}
+
+.sub-manage-tap input:checked + label {
+  background-color: var(--main-pink);
+  border-radius: 8px;
+  color: var(--text-white);
+}
+
+.sub-list {
+  /* border: 1px solid red; */
+  width: 90%;
+}
+
+.sub-list__each {
+  /* border: 1px solid blue; */
+  border-radius: 24px;
+  background-color: var(--light-gray-bg);
+  font-size: 12px;
+
+  margin-bottom: 15px;
+  height: 190px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 8px 100px 8px repeat(3, 1fr) 8px;
+  grid-template-rows: 16px 25px 25px 25px 25px 74px;
+  grid-template-areas:
+    ". . . . . . ."
+    ". a . b b b ."
+    ". a . c c c ."
+    ". a . d d e ."
+    ". a . f f f ."
+    ". g g g g g .";
+}
+
+.sub-list__img {
+  grid-area: a;
+  /* border: 1px dotted red; */
+  height: 100px;
+}
+.sub-list__menu-nm {
+  grid-area: b;
+  font-size: 14px;
+}
+.sub-list__remaining-count {
+  grid-area: c;
+}
+.sub-list__validity {
+  grid-area: d;
+}
+.sub-list__price {
+  grid-area: e;
+  text-align: right;
+  color: var(--main-pink);
+}
+.sub-list__save-price {
+  grid-area: f;
+  color: #10b981;
+}
+.sub-list__button {
+  grid-area: g;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-list__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.sub-list__detail,
+.sub-list__reservation {
+  border: 1px solid var(--main-pink);
+  border-radius: 10px;
+  width: 47%;
+  /* text-align: center; */
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-list__detail {
+  color: var(--main-pink);
+}
+
+.sub-list__reservation {
+  background-color: var(--main-pink);
+  color: var(--text-white);
+}
+
+.total-save-price {
+  /* border: 1px solid red; */
+  width: 90%;
+}
+.total-save-price__month {
+  height: 190px;
+  /* border: 1px dotted blue; */
+  background-color: var(--light-gray-bg);
+  border-radius: 24px;
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  grid-template-rows: 60px 1fr;
+  grid-template-areas:
+    "L M R"
+    "S S S";
+  text-align: center;
+  align-items: center;
+}
+
+.total-save-price__left {
+  grid-area: L;
+}
+
+.total-save-price__right {
+  grid-area: R;
+}
+.total-save-price__this-month {
+  grid-area: M;
+}
+.total-save-price__month-save {
+  grid-area: S;
+  padding-bottom: 50px;
+  font-size: 20px;
+  color: #10b981;
+}
+
+.total-save-price__graph {
+  height: 300px;
+  background-color: var(--light-gray-bg);
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-save-price__graph div {
+  width: 90%;
+}
+.nowSubNone,
+.anySubNone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}

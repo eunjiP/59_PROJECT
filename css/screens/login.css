@@ -1,0 +1,218 @@
+/* login.php css */
+
+.flex_box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.center_flex_box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 4.5rem;
+    justify-content: center;
+    align-items: center;
+
+    width: 119px;
+    height: 100px;
+
+    background-image: url("/59-PROJECT/img/login_logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kakao_login img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.naver_login img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 252px;
+    top: 170px;
+
+    color: #535353;
+}
+
+.kakao_login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 326px;
+    height: 44px;
+    background: #ffeb00;
+    box-shadow: 0px 10px 15px rgb(123 97 255 / 10%), 0px 4px 6px rgb(123 97 255 / 5%);
+    border-radius: 12px;
+}
+
+.kakao_login div {
+    /* Order received */
+
+    width: 120px;
+    height: 24px;
+
+    /* Body Text 2/Semi Bold */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.naver_login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1rem;
+    width: 326px;
+    height: 44px;
+
+    background: #03c75a;
+    /* Shadow/Lg */
+
+    box-shadow: 0px 10px 15px rgba(123, 97, 255, 0.1), 0px 4px 6px rgba(123, 97, 255, 0.05);
+    border-radius: 12px;
+}
+
+.naver_login div {
+    /* Order received */
+
+    width: 120px;
+    height: 24px;
+
+    /* Body Text 2/Semi Bold */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* Black&WHite/White */
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.email_login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1rem;
+    width: 326px;
+    height: 44px;
+
+    /* Red Color/400 */
+
+    background: #ff6464;
+    /* Shadow/Lg */
+
+    box-shadow: 0px 10px 15px rgba(123, 97, 255, 0.1), 0px 4px 6px rgba(123, 97, 255, 0.05);
+    border-radius: 12px;
+}
+
+.email_login div {
+    /* Order received */
+
+    width: 326px;
+    height: 24px;
+
+    /* Body Text 2/Semi Bold */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* Black&WHite/White */
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.join_email div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+
+    margin-top: 12rem;
+
+    width: 326px;
+    height: 44px;
+
+    /* Body Text 2/Semi Bold */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    color: #ff6464;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    border: 1px solid #ff6464;
+    /* Shadow/Lg */
+
+    filter: drop-shadow(0px 10px 15px rgba(123, 97, 255, 0.1)) drop-shadow(0px 4px 6px rgba(123, 97, 255, 0.05));
+    border-radius: 12px;
+}

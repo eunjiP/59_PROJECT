@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slide {
+    position: relative;
+    overflow: hidden;
+    width: 20.375rem;
+    height: 106px;
+    border-radius: 1rem;
+}
+
+.slide__list {
+    display: flex;
+    transform: translate(0, 0);
+}
+
+.slide__item {
+    flex: 0 0 100%;
+    list-style: none;
+}
+
+.slide__image {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.paginations {
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0.5rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.pagination {
+    width: 12px;
+    height: 12px;
+    background: rgb(212, 212, 212);
+    border-radius: 50%;
+}
+
+.pagination:not(:last-child) {
+    margin-right: 0.4rem;
+}
+
+.pagination.on {
+    background: #fcd34d;
+}

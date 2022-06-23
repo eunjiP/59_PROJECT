@@ -1,0 +1,15 @@
+.search--top { display: inline-block; width: 326px; height: 64px;
+    background-color: var(--light-gray-bg);
+    border-radius: 0.5rem;
+    margin: 0 35px; margin-top: 36px;
+}
+
+.search--top button {color: var(--main-pink); font-size: 1.5rem; border: 0; padding: 10px; background-color: var(--light-gray-bg);
+    margin: 10px;}
+.search--top input[type=search] {height: 70%; width: 70%; border: 0; background-color: var(--light-gray-bg);}
+.search--main { margin: 0 30px; padding-top: 105px; }
+.selectTop--nav { margin: 20px 0 ; font-size: 1.5rem;}
+.selectTop--list { display: flex; height: 140px;
+    flex-direction: column; flex-wrap: wrap;
+    gap: 10px;}
+.search--slide { margin-top: 45px;}

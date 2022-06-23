@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.25rem;
+  background-color: var(--white-bg);
+  position: fixed;
+  height: 4.5rem;
+  width: 100%;
+  min-width: var(--mobile-min-width);
+  max-width: var(--mobile-max-width);
+  bottom: 0px;
+
+  /* Background/Bg Secondary */
+
+  background: var(--white-bg);
+  box-shadow: 0px -10px 15px rgba(107, 114, 128, 0.05),
+    0px -4px 23px rgba(107, 114, 128, 0.05);
+  border-radius: 0px;
+}
+footer a {
+  color: var(--text-gray);
+  font-size: 24px;
+}
+footer nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer nav .nav--footer_center {
+  padding: 16px;
+  background-color: var(--main-pink);
+  border-radius: 35px;
+}
+footer nav .nav--footer_center a {
+  color: var(--text-white);
+}
