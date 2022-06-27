@@ -17,8 +17,8 @@
 
 
 ---
-<img src="https://user-images.githubusercontent.com/101936519/175876087-e252a8ac-add8-4fc8-a45b-04c6e8e10d67.jpg" width=200px><img src="https://user-images.githubusercontent.com/101936519/175875735-9cbcb145-9f09-4b7b-bbdc-9cad7b4df6db.jpg" width=200px>
-<img src="https://user-images.githubusercontent.com/101936519/175875962-0ac8a182-d3a1-4036-9525-78280a21dcec.jpg" width=200px>
+<img src="https://user-images.githubusercontent.com/101936519/175876087-e252a8ac-add8-4fc8-a45b-04c6e8e10d67.jpg" width=300px><img src="https://user-images.githubusercontent.com/101936519/175875735-9cbcb145-9f09-4b7b-bbdc-9cad7b4df6db.jpg" width=300px>
+<img src="https://user-images.githubusercontent.com/101936519/175875962-0ac8a182-d3a1-4036-9525-78280a21dcec.jpg" width=300px>
 <div>로그인 전 Home / 로그인 후 Home / 검색 후 List</div>
 
 
