@@ -8,8 +8,6 @@
 
 ### 개발팀 : 그린 버거
 
----
-
 #### 담당 업무 : 주제 기획, DB 설계, 팀장으로서 역할 분배
 
 #### 담당 페이지 : Main page, List page, Search page, 맞춤 추천, map page
