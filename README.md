@@ -17,8 +17,8 @@
 
 
 ---
-<img src="![로그인전Home]https://user-images.githubusercontent.com/101936519/175876087-e252a8ac-add8-4fc8-a45b-04c6e8e10d67.jpg" width=300px margin-right=50px><img src="https://user-images.githubusercontent.com/101936519/175875735-9cbcb145-9f09-4b7b-bbdc-9cad7b4df6db.jpg" width=300px margin-right=50px>
-<img src="https://user-images.githubusercontent.com/101936519/175875962-0ac8a182-d3a1-4036-9525-78280a21dcec.jpg" width=300px>
+<img src="https://user-images.githubusercontent.com/101936519/175876087-e252a8ac-add8-4fc8-a45b-04c6e8e10d67.jpg" alt="로그인전Home" width=300px margin-right=50px><img src="https://user-images.githubusercontent.com/101936519/175875735-9cbcb145-9f09-4b7b-bbdc-9cad7b4df6db.jpg" alt="로그인후Home" width=300px margin-right=50px>
+<img src="https://user-images.githubusercontent.com/101936519/175875962-0ac8a182-d3a1-4036-9525-78280a21dcec.jpg" alt="검색후" width=300px>
 
 
 
