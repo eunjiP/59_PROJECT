@@ -1,6 +1,6 @@
 # 프로젝트명 : 오구(오늘의 구독) 
 <img src="https://user-images.githubusercontent.com/101936519/175867739-91775142-3af8-49f1-8635-e5e8c2adfaa8.png" width=200px>
-<div align="right">[:link:협업 Repository 바로가기](https://github.com/rlagnswo0505/59-project)</div>
+[:link:협업 Repository 바로가기](https://github.com/rlagnswo0505/59-project)
 
 ### 주제 : 소상공인을 위한 구독 플랫폼
 
@@ -20,6 +20,7 @@
 ---
 <img src="https://user-images.githubusercontent.com/101936519/175876087-e252a8ac-add8-4fc8-a45b-04c6e8e10d67.jpg" alt="로그인전Home" width=300px margin-right=50px><img src="https://user-images.githubusercontent.com/101936519/175875735-9cbcb145-9f09-4b7b-bbdc-9cad7b4df6db.jpg" alt="로그인후Home" width=300px margin-right=50px>
 <img src="https://user-images.githubusercontent.com/101936519/175875962-0ac8a182-d3a1-4036-9525-78280a21dcec.jpg" alt="검색후" width=300px>
+<div align="center">로그인 전 Home / 로그인 후 Home / 검색 후 List</div
 
 
 
