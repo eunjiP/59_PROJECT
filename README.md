@@ -11,6 +11,8 @@
 
 ### 개발팀 : 그린 버거
 
+### [협업 저장소](https://github.com/rlagnswo0505/59-project)
+
 #### 담당 업무 : 주제 기획, DB 설계, 팀장으로서 역할 분배
 
 #### 담당 페이지 : Main page, List page, Search page, 맞춤 추천, map page
