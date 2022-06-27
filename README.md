@@ -3,7 +3,7 @@
 [:link:협업 Repository 바로가기](https://github.com/rlagnswo0505/59-project)
 
 ### 주제 : 소상공인을 위한 구독 플랫폼
-<div>K-디지털트레이닝 해커톤 참가 </div>
+<div font-size:0.5rem>K-디지털트레이닝 해커톤 참가 </div>
 
 ### 사용언어 : PHP, JavaScript
 
