@@ -11,7 +11,7 @@
 
 ### 개발팀 : 그린 버거
 
-### [:paperclip:협업 Repository 바로가기](https://github.com/rlagnswo0505/59-project)
+### [:link:협업 Repository 바로가기](https://github.com/rlagnswo0505/59-project)
 
 #### 담당 업무 : 주제 기획, DB 설계, 팀장으로서 역할 분배
 
