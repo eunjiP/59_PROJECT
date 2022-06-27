@@ -1,5 +1,7 @@
-# 프로젝트명 : 오구(오늘의 구독)
+# 프로젝트명 : 오구(오늘의 구독) 
 <img src="https://user-images.githubusercontent.com/101936519/175867739-91775142-3af8-49f1-8635-e5e8c2adfaa8.png" width=200px>
+
+### 주제 : 소상공인을 위한 구독 플랫폼
 
 ### 사용언어 : PHP, JavaScript
 
