@@ -1,4 +1,5 @@
 # 프로젝트명 : 오구(오늘의 구독)
+<img src="![59_logo](https://user-images.githubusercontent.com/101936519/175867739-91775142-3af8-49f1-8635-e5e8c2adfaa8.png)">
 
 ### 사용언어 : PHP, JavaScript
 
