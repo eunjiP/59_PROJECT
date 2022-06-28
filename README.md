@@ -26,7 +26,7 @@
 
 |검색창 + 실시간 검색 순위|검색 후 List|찜가게 목록(없는 경우)|찜가게 목록(있는 경우)|
 |-----------------------|------|-------|-------------------|
-<img src="https://user-images.githubusercontent.com/101936519/176115574-63a64256-669c-4567-a960-4f26f4b71fbe.jpg" width=300px>|<img src="https://user-images.githubusercontent.com/101936519/175875962-0ac8a182-d3a1-4036-9525-78280a21dcec.jpg" alt="검색후" width=300px>|<img src="https://user-images.githubusercontent.com/101936519/176118002-91c2e44d-a3cf-49e4-9d48-80424236c2c3.jpg" width=300px>|<img src="https://user-images.githubusercontent.com/101936519/176118167-8aaefd9a-bc51-422d-a501-5ce76d90e764.jpg" width=300px>|
+<img src="https://user-images.githubusercontent.com/101936519/176115574-63a64256-669c-4567-a960-4f26f4b71fbe.jpg">|<img src="https://user-images.githubusercontent.com/101936519/175875962-0ac8a182-d3a1-4036-9525-78280a21dcec.jpg" alt="검색후" >|<img src="https://user-images.githubusercontent.com/101936519/176118002-91c2e44d-a3cf-49e4-9d48-80424236c2c3.jpg" >|<img src="https://user-images.githubusercontent.com/101936519/176118167-8aaefd9a-bc51-422d-a501-5ce76d90e764.jpg">|
 
 
 
