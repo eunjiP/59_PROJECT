@@ -20,7 +20,7 @@
 
 - 담당 페이지 : Main page, List page, Search page, 맞춤 추천, map page
 
-|로그인 전 Home|로그인 후 Hom|리스트|
+|로그인 전 Home|로그인 후 Hom|List|
 |-------------|------------|------------|
 |<img src="https://user-images.githubusercontent.com/101936519/175876087-e252a8ac-add8-4fc8-a45b-04c6e8e10d67.jpg" alt="로그인전Home" width=300px>|<img src="https://user-images.githubusercontent.com/101936519/175875735-9cbcb145-9f09-4b7b-bbdc-9cad7b4df6db.jpg" alt="로그인후Home" width=300px>|<img src="https://user-images.githubusercontent.com/101936519/176115753-d52f2969-b7d8-4d63-a47a-fa2628f245a5.jpg" width=300px>|
 
