@@ -22,7 +22,7 @@
 
 |로그인 전 Home|로그인 후 Hom|List|주소설정|
 |-------------|------------|------------|-------------|
-|<img src="https://user-images.githubusercontent.com/101936519/175876087-e252a8ac-add8-4fc8-a45b-04c6e8e10d67.jpg" alt="로그인전Home" width=250px>|<img src="https://user-images.githubusercontent.com/101936519/175875735-9cbcb145-9f09-4b7b-bbdc-9cad7b4df6db.jpg" alt="로그인후Home" width=250px>|<img src="https://user-images.githubusercontent.com/101936519/176115753-d52f2969-b7d8-4d63-a47a-fa2628f245a5.jpg" width=250px>|<img src="https://user-images.githubusercontent.com/101936519/176115835-8f28ab1b-aa6e-4b43-ae4e-38fb63e3406e.jpg" width=250px>|
+|<img src="https://user-images.githubusercontent.com/101936519/175876087-e252a8ac-add8-4fc8-a45b-04c6e8e10d67.jpg" alt="로그인전Home">|<img src="https://user-images.githubusercontent.com/101936519/175875735-9cbcb145-9f09-4b7b-bbdc-9cad7b4df6db.jpg" alt="로그인후Home">|<img src="https://user-images.githubusercontent.com/101936519/176115753-d52f2969-b7d8-4d63-a47a-fa2628f245a5.jpg">|<img src="https://user-images.githubusercontent.com/101936519/176115835-8f28ab1b-aa6e-4b43-ae4e-38fb63e3406e.jpg">|
 
 |검색창 + 실시간 검색 순위|검색 후 List|찜가게 목록(없는 경우)|찜가게 목록(있는 경우)|
 |-----------------------|------|-------|-------------------|
