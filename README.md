@@ -3,6 +3,7 @@
 
 <img src="https://user-images.githubusercontent.com/101936519/175867739-91775142-3af8-49f1-8635-e5e8c2adfaa8.png" width=200px></img>
 [:link:협업 Repository 바로가기](https://github.com/rlagnswo0505/59-project)
+[:link:프로젝트 완성 영상 바로가기](https://youtu.be/OsIKabWLk5U)
 
 주제
 -----
