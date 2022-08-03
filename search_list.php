@@ -9,7 +9,9 @@ $param = [
 
 $result = search_result_list($param);
 $result_count = search_result_count($param);
-$mag = $result_count['cnt'] . "개가 검색되었습니다.";
+if(!$result_count['cnt']) {
+    $mag = $result_count['cnt'] . "개가 검색되었습니다.";
+}
 
 
 
@@ -44,7 +46,7 @@ $mag = $result_count['cnt'] . "개가 검색되었습니다.";
         </header>
         <main class="search_list_main">
             <div class="search__main__list">
-                <div>
+                <div id="search_mag">
                     <?= $mag ?>
                 </div>
                 <?php
@@ -102,6 +104,8 @@ $mag = $result_count['cnt'] . "개가 검색되었습니다.";
     const storeLng = document.querySelectorAll('#store_lng');
     const locat = document.querySelectorAll('.list__store__location');
     const displayA = document.querySelectorAll('.displayA');
+    const divMag = document.querySelector('#search_mag');
+    let count = 0;
 
     function getDistanceFromLatLonInKm(lat1, lng1, lat2, lng2) {
         function deg2rad(deg) {
@@ -120,9 +124,11 @@ $mag = $result_count['cnt'] . "개가 검색되었습니다.";
         let result = getDistanceFromLatLonInKm(lat, lng, storeLat[i].value, storeLng[i].value);
         if(result < 5) {
             locat[i].innerHTML += `${Math.round(result * 10) / 10} KM`;
+            count++;
         } else {
             displayA[i].style.display = 'none';
         }
     }
+    divMag.innerHTML = `${count}개가 검색되었습니다.`;
     </script>
 </html>

@@ -1,8 +1,8 @@
 <?php
 $my_address = $_POST['my_addr'];
-if (![$_GET['user_addr']]) {
-    $user_addr = $_GET['user_addr'];
-}
+// if (![$_GET['user_addr']]) {
+//     $user_addr = $_GET['user_addr'];
+// }
 ?>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7bfb673c0f6bf2c1ea0c0bdce834d211&libraries=services"></script>
 <script>

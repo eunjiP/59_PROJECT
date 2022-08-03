@@ -1,6 +1,8 @@
 <?php
 session_start();
-$login_user = $_SESSION['login_user'];
+if(isset($_SESSION['login_user'])){
+    $login_user = $_SESSION['login_user'];
+}
 ?>
 <!-- 은지 - Home -->
 <!DOCTYPE html>
